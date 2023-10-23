@@ -10,10 +10,7 @@ export default function App() {
 
 const appStackNavigator = createStackNavigator(
   {
-    Home: {
-      screen: HomeScreen,
-      navigationOptions: {
-        headerShown: false
+  //PASSO 1
       }
     },
     Details: {
@@ -21,7 +18,7 @@ const appStackNavigator = createStackNavigator(
     }
   },
   {
-    initialRouteName: "Home"
+  //PASSO 2
   }
 );
 
